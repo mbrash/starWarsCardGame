@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Star Wars Card Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type='text/css' />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="sass/main.css" />
+</head>
+
+
+<body>
+    <!-- ======================================================================= -->
+    <!-- menu layer -->
+    <!-- ======================================================================= -->
+    <div id="menu">
+        <div class="page-header">
+            <h1>Card Game from Hell</h1>
+        </div>
+        <form id="form-name">
+            <input id="inputName" type="text" class="form-control" placeholder="Name"/>
+        </form>
+        <div id="formNotification"><h6>enter name with 3 letters or more</h6></div>
+        <div id="play">
+            <button>Play</button>
+            <!-- <a class="btn btn-primary btn-lg" href="#" role="button">PLAY</a> -->
+        </div>
+        <div class="container" id="leaderboard">
+            <h3>Top 5 Scores</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>username</h2>
+                </div>
+                <div class="col-sm-6">
+                    <h2>score</h2>
+                </div>
+            </div>
+ 
+        </div>
+
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- game layer  -->
+    <!-- ======================================================================= -->
+    <div id="game">
+        <div class="container" id="gameHeader">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 id="score">Score: 250</h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="timer">Time: 0</h3>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li><h4 id="moves">Moves: 0</h4></li>
+                        <li><h4 id="fails">Fails: 0</h4></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- end of gameLayer -->
+
+
+<div id="loading">
+    <img src="img/lightsaber.png">
+    <h1>loading.</h1>
+</div>
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/highscore.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/gameEngine.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

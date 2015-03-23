@@ -1,0 +1,50 @@
+.cardBack	{
+	width: 100px;
+	height: 100px;
+	background-color: #555;
+	background-size: cover;
+	position: relative;
+	// opacity: .7;
+	border-radius: 5px;
+	h1 {
+		padding-top: 60px;
+		text-overflow: hidden;
+		width: 100px;
+		word-break: keep-all;
+		font-size: .8em;
+		color: $primary-text-color;
+		font-family: Starjedi;
+		text-align: center;
+		-webkit-text-stroke: 1px black;
+	}
+}
+
+.cardFront 	{
+	width: 100px;
+	height: 100px;
+	background-color:white;
+	background: url(../img/card-front.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	border-radius: 5px;
+	// z-index: -1;
+}
+
+#playingCards {
+	margin-top: 15px;
+}
+
+.cardRow {
+	margin-bottom: 7px;
+}
+
+.playBox	{
+	width: 200px;
+	background-color: lightblue;
+	font-size: 30px;
+	text-align: center;
+	margin: auto auto;
+	padding: 1%;
+	margin-bottom: 20px;
+}

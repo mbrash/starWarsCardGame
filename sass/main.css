@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Starjedi.ttf";
+  src: url("../fonts/Starjedi.ttf"); }
+@font-face {
+  font-family: "Starjhol.ttf";
+  src: url("../fonts/Starjhol.ttf"); }
+body {
+  background-color: #1e1e1e;
+  background: url(../img/starPattern.png); }
+
+.page-header {
+  margin-top: 0;
+  border-bottom: none; }
+  .page-header h1 {
+    color: #ffbf00;
+    letter-spacing: 3px;
+    font-size: 3em;
+    padding: 22px 0;
+    font-family: Starjedi; }
+
+#game {
+  display: none; }
+
+#victoryScreen {
+  background-color: black;
+  height: 1000px;
+  width: 1000px; }
+
+.cardBack {
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px; }
+  .cardBack h1 {
+    padding-top: 60px;
+    text-overflow: hidden;
+    width: 100px;
+    word-break: keep-all;
+    font-size: .8em;
+    color: #ffbf00;
+    font-family: Starjedi;
+    text-align: center;
+    -webkit-text-stroke: 1px black; }
+
+.cardFront {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  background: url(../img/card-front.png) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  border-radius: 5px; }
+
+#playingCards {
+  margin-top: 15px; }
+
+.cardRow {
+  margin-bottom: 7px; }
+
+.playBox {
+  width: 200px;
+  background-color: lightblue;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto;
+  padding: 1%;
+  margin-bottom: 20px; }
+
+#form-name {
+  padding: 20px 0 20px 0;
+  margin: auto;
+  width: 250px; }
+  #form-name input {
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+    height: 60px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 3px solid #ffbf00;
+    font-size: 2em;
+    text-align: center; }
+
+#play {
+  padding: 30px 0; }
+  #play button {
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    background: none;
+    border-radius: 15px;
+    color: #f1f1f1;
+    display: block;
+    margin: auto;
+    font-size: 2em;
+    padding: 10px 50px 15px 50px;
+    border: 3px solid #ffbf00; }
+    #play button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffbf00; }
+
+#leaderboard {
+  font-family: Starjedi;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  border: 3px solid #ffbf00;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0; }
+  #leaderboard h3 {
+    padding: 20px 0;
+    font-size: 1.75em;
+    text-decoration: underline;
+    color: #ffbf00; }
+  #leaderboard h2 {
+    /*		border: thin solid black;*/
+    margin: auto;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    text-decoration: underline;
+    padding-bottom: 10px; }
+  #leaderboard h4 {
+    color: #f1f1f1;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.375em; }
+  #leaderboard h5 {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 1.375em; }
+
+body {
+  /*background-image: url('../img/grimReaper.jpg'); 
+  background-repeat: inherit;*/
+  font-family: 'Architects Daughter', cursive; }
+
+h1 {
+  text-align: center;
+  color: red; }
+
+h2 {
+  margin-left: 200px;
+  text-align: center;
+  color: red; }
+
+h3 {
+  margin: auto;
+  text-align: center;
+  color: red; }
+
+.hiScores {
+  color: red;
+  margin-left: 500px;
+  font-size: 18pt; }
+
+p {
+  color: red; }
+
+#formNotification h6 {
+  font-size: .8em;
+  font-family: Starjedi;
+  letter-spacing: 2px;
+  color: #f1f1f1;
+  text-align: center;
+  margin: auto; }
+
+#loading {
+  display: none; }
+  #loading img {
+    display: block;
+    margin: auto; }
+  #loading h1 {
+    font-size: 3em;
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    color: #ffbf00;
+    text-align: center;
+    margin-top: 20px; }
+
+#gameHeader {
+  background: none;
+  height: 50px;
+  border-radius: 10px;
+  border: 3px solid #ffbf00;
+  margin: 10px auto; }
+  #gameHeader h3, #gameHeader h4 {
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+    text-align: left; }
+  #gameHeader h3 {
+    font-size: 1.5em;
+    padding: 7px 0 5px 0; }
+  #gameHeader h4 {
+    text-align: right;
+    padding-top: 3px; }
+  #gameHeader #timer {
+    text-align: center; }
+
+#victoryScreen {
+  background: none;
+  border-radius: 10px;
+  border: 3px solid #ffbf00;
+  width: 70%;
+  height: 300px;
+  margin: 50px auto; }
+  #victoryScreen h1 {
+    font-size: 3em;
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    color: #ffbf00;
+    text-align: center;
+    margin-top: 20px; }
+  #victoryScreen p {
+    margin-top: 40px;
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+    text-align: center; }
+  #victoryScreen button {
+    font-family: Starjedi;
+    letter-spacing: 2px;
+    background: none;
+    border-radius: 15px;
+    color: #f1f1f1;
+    display: block;
+    margin: 25px auto 0 auto;
+    font-size: 2em;
+    padding: 10px 50px 15px 50px;
+    border: 3px solid #ffbf00; }
+    #victoryScreen button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffbf00; }
+
+/*# sourceMappingURL=main.css.map */

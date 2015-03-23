@@ -1,0 +1,113 @@
+#form-name {
+	padding: 20px 0 20px 0;
+	margin: auto;
+	width: 250px;
+	input {
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		color: $secondary-text-color; 
+		height: 60px;
+		border: none;
+		background: none;
+		box-shadow: none;
+		border-radius: 0;
+		border-bottom: 3px solid $primary-text-color;
+		font-size: 2em;
+		text-align: center;
+	}
+}
+#play {
+	padding: 30px 0;
+	button {
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		background: none;
+		border-radius: 15px;
+		color: $secondary-text-color;
+		display: block;
+		margin: auto;
+		font-size: 2em;
+		padding: 10px 50px 15px 50px;
+		border: 3px solid  $primary-text-color;
+		&:hover {
+			background: rgba(255,255,255,.2);
+			color: $primary-text-color;
+		}
+	}
+}
+#leaderboard {
+	font-family: Starjedi;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	border: 3px solid  $primary-text-color;
+	border-radius: 20px;
+	margin-bottom: 10px; 
+	padding: 10px 0;
+	h3 {
+		padding: 20px 0;
+		font-size: 1.75em;
+		text-decoration: underline;
+		color: $primary-text-color;
+	
+	}
+	h2 {
+/*		border: thin solid black;*/
+		margin: auto;
+		font-size: 1.5em;
+		color: $secondary-text-color;
+		text-decoration: underline;
+		padding-bottom: 10px;
+	}
+	h4 {
+		color: $secondary-text-color;
+		padding: 5px 0;
+		text-align: center;
+		font-size: 1.375em;
+	}
+	h5 {
+		color: $secondary-text-color;
+		text-align: center;
+		font-size: 1.375em;
+	}
+}
+body {
+	/*background-image: url('../img/grimReaper.jpg'); 
+	background-repeat: inherit;*/
+	font-family: 'Architects Daughter', cursive;
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+h2 {
+	margin-left: 200px;
+	text-align: center;
+	color: red;
+}
+h3 {
+	margin: auto;
+	text-align: center;
+	color: red;	
+}
+.hiScores {
+	color: red;	
+	margin-left: 500px;
+	font-size: 18pt;
+}
+p {
+	color:red;
+}
+
+
+#formNotification {
+	h6	{
+		// display: none;
+		font-size: .8em;
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		color: $secondary-text-color;
+		text-align: center;
+		// width: 200px;
+		margin: auto;
+	}
+}

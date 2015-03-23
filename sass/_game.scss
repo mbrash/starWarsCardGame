@@ -1,0 +1,66 @@
+#gameHeader {
+	background: none;
+	height: 50px;
+	border-radius: 10px;
+	border: 3px solid $primary-text-color;
+	margin: 10px auto;
+	h3, h4 {
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		color: $secondary-text-color;
+		text-align: left;
+	}
+	h3 {
+		font-size: 1.5em;
+		padding: 7px 0 5px 0;
+	}
+	h4 {
+		text-align: right;
+		padding-top: 3px;
+	}
+	#timer {
+		text-align: center;
+	}
+}
+
+
+
+#victoryScreen {
+	background: none;
+	border-radius: 10px;
+	border: 3px solid $primary-text-color;
+	width: 70%;
+	height: 300px;
+	margin: 50px auto;
+	h1 {
+		font-size: 3em;
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		color: $primary-text-color;
+		text-align: center;
+		margin-top: 20px;
+	}
+	p {
+		margin-top: 40px;
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		color: $secondary-text-color;
+		text-align: center;
+	}
+	button {
+		font-family: Starjedi;
+		letter-spacing: 2px;
+		background: none;
+		border-radius: 15px;
+		color: $secondary-text-color;
+		display: block;
+		margin: 25px auto 0 auto;
+		font-size: 2em;
+		padding: 10px 50px 15px 50px;
+		border: 3px solid  $primary-text-color;
+		&:hover {
+			background: rgba(255,255,255,.2);
+			color: $primary-text-color;
+		}
+	}
+}

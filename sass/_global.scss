@@ -1,0 +1,42 @@
+@font-face {
+	font-family:"Starjedi.ttf";
+	src: url("../fonts/Starjedi.ttf")
+}
+
+@font-face {
+	font-family:"Starjhol.ttf";
+	src: url("../fonts/Starjhol.ttf")
+}
+
+
+body {
+	background-color: $primary-color;
+	background: url(../img/starPattern.png);
+}
+
+.page-header {
+	margin-top: 0;	
+	border-bottom: none;
+	h1 {
+		color: $primary-text-color;
+		letter-spacing: 3px;
+		font-size: 3em;
+		padding: 22px 0;
+		font-family: Starjedi;
+
+	}
+}
+
+#game {
+	display: none;
+}
+
+
+
+
+
+#victoryScreen {
+	background-color: black;
+	height: 1000px;
+	width: 1000px;
+}
